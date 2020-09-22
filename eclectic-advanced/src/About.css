@@ -84,9 +84,11 @@
   }
   
   .devpic {
-    max-width: 30%;
+    min-width: 350px;
+    max-width: 500px;
     margin-top: 5%;
-    max-height: 40%
-    
+    min-height: 80px;
+    max-height: 800px
+
   }
   

@@ -21,7 +21,7 @@
 }
 
 .Landing {
-    height: 77.8vh;
+    min-height: auto;
     font-family: 'Libre Baskerville', serif;
 
 }
@@ -31,7 +31,6 @@
     height: 600px;
     margin: auto;
     /* padding-top: 2%; */
-
 }
 
 .carouselimagecontainer {

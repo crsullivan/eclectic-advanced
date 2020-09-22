@@ -1,12 +1,13 @@
 .Contact {
-    height: 77.8vh;
+    min-height: 77.8vh;
     width: auto;
     display: flex;
 }
 
 .contactForm {
     width: 75%;
-    height: 70vh;
+    height: 600px;
+    min-height: 70%;
     margin: auto;
     margin-top: 1%;
 }
