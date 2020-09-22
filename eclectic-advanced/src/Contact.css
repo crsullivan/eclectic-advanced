@@ -1,3 +1,12 @@
+@media only screen and (max-width: 600px) {
+
+    .Contact {
+        min-height: auto;
+    }
+
+}
+
+
 .Contact {
     min-height: 77.8vh;
     width: auto;
@@ -6,8 +15,8 @@
 
 .contactForm {
     width: 75%;
-    height: 600px;
-    min-height: 300px;
+    height: 550px;
+    min-height: 200px;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 6%;

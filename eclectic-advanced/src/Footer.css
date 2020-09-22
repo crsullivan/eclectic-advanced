@@ -10,16 +10,15 @@
 
     .footer {
         max-width: auto;
-        min-height: 100px;
+        min-height: 20%;
         display: flex; 
-        flex-direction: column;
+        /* flex-direction: column; */
         position: relative;
 
     }
 
     .footer img {
-        min-width: 50%;
-        margin-top: 5%;
+        display: none;
 
     }
     
@@ -52,15 +51,17 @@
 .footer {
     background-color: #404040;
     position: fixed;
+    left: 0;
+    bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 10vh;
+    min-height:100px;
     margin: 0 auto;
     border-top: 1px solid slategrey;
     color: white;
     display: flex; 
     justify-content:space-between;
     align-items: center;
-    bottom: 0;
 
 }
 
@@ -69,13 +70,11 @@
     padding-left: 2%;
 }
 
-.copyright {
-    display: flex;
+p {
     margin-left: 2%;
     align-items: center;
-    width: 12%;
-    min-width:200px;
-
+    min-width: 13%;
+    text-align: center;
 }
 
 .Name {
