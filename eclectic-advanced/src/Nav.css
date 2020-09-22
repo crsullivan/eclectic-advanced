@@ -1,0 +1,77 @@
+@media only screen and (max-width: 600px) {
+
+    .Nav {
+        max-width: 100%;
+
+    }
+
+    .Nav h1 {
+        font-size: 1em;
+    
+    }
+
+    .navLinks {
+        font-size: .6em;
+        min-width: 50%;
+    }
+
+}
+
+.Nav {
+    /* position: absolute; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: ghostwhite;
+    border-bottom: 1px solid slategrey;
+    /* align-items: center; */
+    margin-bottom: 2%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.Nav h1 {
+    margin-left: 3%;
+
+}
+
+.Nav h1 a {
+    margin-left: 5%;
+    text-decoration: none;
+    color: black;
+}
+
+.Nav h1 a:hover {
+    color: #b44ed3;
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+
+}
+
+.navLinks {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    /* background: red; */
+    align-items: center;
+    margin-right: 5%;
+    font-weight: bold;
+}
+
+.navLinks a {
+    border-radius: 15%;
+    padding: 2%;
+    font-size: 1.25em;
+    text-decoration: none;
+    color: black;
+
+
+    
+}
+
+a:hover {
+    color: rgb(54, 197, 54);
+    -webkit-transition: color 300ms linear;
+    -ms-transition: color 300ms linear;
+    transition: color 300ms linear;
+}

@@ -1,0 +1,91 @@
+@media only screen and (max-width: 600px) {
+
+    .devpic {
+        display: none;
+
+      }
+
+      .About-Title p {
+        font-size: 2rem;
+        
+      }
+
+      .boxes {
+        font-size: 1em;
+        min-width: 90%;
+    }
+
+    #top {
+        width: auto
+
+      }
+
+      .vision {
+        min-width: 90%;
+
+      }
+}
+
+
+.About {
+    /* height: 77.8vh; */
+    font-family: 'Libre Baskerville', serif;
+    margin-top: 5%;
+}
+
+.About-Title {
+    font-size: 3rem;
+    width: 90%;
+    margin: auto;
+    margin-bottom: -2%;
+    margin-top: -2%;
+  }
+  
+.boxes .vision {
+    font-size: 1.5em;
+
+}
+
+  #top {
+    border-top: 1px solid lightgreen;
+    display: flex;
+    height: 50%;
+    margin: 0% 10%;
+    margin-bottom: 5%;
+
+  
+  }
+  
+  .boxes {
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 80%;
+    margin: auto;
+    margin-top: 2%;
+  }
+  
+  /* .boxes img {
+    height: 100%;
+    border-radius: 2%;
+  } */
+  
+  .boxes p {
+    font-size: 1.25em;
+
+  
+  }
+  
+  .boxes a {
+    text-decoration: none;
+    color: rgb(120, 68, 150);
+
+    
+  }
+  
+  .devpic {
+    max-width: 30%;
+    margin-top: 5%;
+    max-height: 40%
+  }
+  

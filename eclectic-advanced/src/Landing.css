@@ -1,0 +1,50 @@
+@media only screen and (max-width: 600px) {
+
+    .Landing {
+        min-height: 100vh;    
+    }
+
+    .hooks {
+        display: flex;
+        flex-direction: column;
+        max-height: auto;
+        margin-bottom: 20%;
+    }
+
+    .carousel {
+        max-width: 40%;
+        max-height: 200px;
+        margin: auto;
+        /* padding-top: 2%; */
+    }
+
+}
+
+.Landing {
+    height: 77.8vh;
+    font-family: 'Libre Baskerville', serif;
+
+}
+
+.carousel {
+    max-width: 1100px;
+    height: 600px;
+    margin: auto;
+    /* padding-top: 2%; */
+
+}
+
+.carouselimagecontainer {
+}
+
+.hooks {
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: auto;
+    /* margin-top: 1%; */
+}
+
+.infoDiv {
+    text-align: center;
+}
