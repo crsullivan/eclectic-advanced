@@ -12,15 +12,15 @@ const Landing = () => {
                 <p className="legend">Legend 1</p>
                 </div>
                 <div className="carouselimagecontainer">
-                <img alt="" src={require("../images/covidtracker.PNG")} />
+                <img alt="" src={require("../images/portfolioSnap.PNG")} />
                 <p className="legend">Legend 2</p>
                 </div>
                 <div className="carouselimagecontainer">
-                <img alt="" src={require("../images/covidtracker.PNG")} />
+                <img alt="" src={require("../images/kPortfolio.PNG")} />
                 <p className="legend">Legend 3</p>
                 </div>
                 <div className="carouselimagecontainer">
-                <img alt="" src={require("../images/covidtracker.PNG")} />
+                <img alt="" src={require("../images/updateddbArch.PNG")} />
                 <p className="legend">Legend 4</p>
                 </div>
             </Carousel>
